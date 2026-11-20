@@ -12,7 +12,16 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: black;
+	background-color: #277A3B;
+}
+
+img {
+  width: 50%;
+  height: 300px;
+  width: 400px;
+  float: right;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 h4 {
 	font-style: italic;
@@ -42,3 +51,10 @@ p {
  	margin-right: 10px;
  }
 }
+
+body {
+  color-scheme: light dark; /* Enabling light mode and dark mode */
+  color: light-dark(#333, #fff); /* Text light and dark colors */
+  background-color: light-dark(#fff, #222); /* Background light and dark colors*/
+}
+
